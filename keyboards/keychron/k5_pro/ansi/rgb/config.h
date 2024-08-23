@@ -37,7 +37,7 @@
 #    define RGB_MATRIX_BRIGHTNESS_TURN_OFF_VAL 48
 
 /* Indication led */
-#    define NUM_LOCK_INDEX 37    // NumLock
+//#    define NUM_LOCK_INDEX 37    // NumLock
 #    define LOW_BAT_IND_INDEX 98 // Space
 
 // RGB Matrix Animation modes. Explicitly enabled
@@ -50,3 +50,10 @@
 #    define SNLED27351_CURRENT_TUNE \
         { 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14, 0x14 }
 #endif
+
+
+//j custom defs
+
+#define MK_3_SPEED
+
+        
